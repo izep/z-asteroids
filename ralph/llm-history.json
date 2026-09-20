@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T05:18:49.189Z",
-  "lifetimeCalls": 2,
+  "lastUpdated": "2026-09-20T05:19:45.333Z",
+  "lifetimeCalls": 4,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 1,
-    "qa": 1,
+    "dev": 2,
+    "qa": 2,
     "review": 0
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 2,
+    "calls": 4,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 1,
-      "qa": 1,
+      "dev": 2,
+      "qa": 2,
       "review": 0
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789881585333_6rtx",
+      "timestamp": "2026-09-20T05:19:45.333Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 5,
+      "taskTitle": "Implement Asteroid Spawning and Movement",
+      "durationMs": 9214,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789881576112_fmuf",
+      "timestamp": "2026-09-20T05:19:36.112Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 5,
+      "taskTitle": "Implement Asteroid Spawning and Movement",
+      "durationMs": 46871,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789881529189_9zb1",
       "timestamp": "2026-09-20T05:18:49.189Z",

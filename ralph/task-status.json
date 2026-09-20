@@ -25,8 +25,8 @@
       "id": 5,
       "title": "Implement Asteroid Spawning and Movement",
       "description": "Code the logic for spawning asteroids and their movement across the screen.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 6,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 4,
-  "totalLLMCalls": 16,
+  "currentTaskNum": 5,
+  "totalLLMCalls": 18,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 4,
-    "content": "## Task #4: Design Asteroid Shapes\n\nCreate vector-based shapes for asteroids with random jagged edges.",
-    "updatedAt": "2026-09-20T05:17:58.562Z"
+    "taskId": 5,
+    "content": "## Task #5: Implement Asteroid Spawning and Movement\n\nCode the logic for spawning asteroids and their movement across the screen.",
+    "updatedAt": "2026-09-20T05:18:49.239Z"
   },
   "feedback": {
-    "taskId": 4,
+    "taskId": 5,
     "content": "",
-    "updatedAt": "2026-09-20T05:17:58.565Z"
+    "updatedAt": "2026-09-20T05:18:49.240Z"
   },
-  "lastUpdated": "2026-09-20T05:18:49.192Z"
+  "lastUpdated": "2026-09-20T05:19:45.338Z"
 }
