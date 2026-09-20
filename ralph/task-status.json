@@ -74,8 +74,8 @@
       "id": 12,
       "title": "Create Game Loop",
       "description": "Develop the main game loop to handle rendering, physics, and input processing.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 13,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 11,
-  "totalLLMCalls": 30,
+  "currentTaskNum": 12,
+  "totalLLMCalls": 33,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 11,
-    "content": "## Task #11: Add Score and Lives System\n\nImplement a system to track the player's score and lives.",
-    "updatedAt": "2026-09-20T05:25:51.589Z"
+    "taskId": 12,
+    "content": "## Task #12: Create Game Loop\n\nDevelop the main game loop to handle rendering, physics, and input processing.",
+    "updatedAt": "2026-09-20T18:11:15.307Z"
   },
   "feedback": {
-    "taskId": 11,
+    "taskId": 12,
     "content": "",
-    "updatedAt": "2026-09-20T05:25:51.589Z"
+    "updatedAt": "2026-09-20T18:11:15.309Z"
   },
-  "lastUpdated": "2026-09-20T05:26:36.994Z"
+  "lastUpdated": "2026-09-20T18:12:10.177Z"
 }
