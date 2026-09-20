@@ -67,8 +67,8 @@
       "id": 11,
       "title": "Add Score and Lives System",
       "description": "Implement a system to track the player's score and lives.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 12,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 10,
-  "totalLLMCalls": 28,
+  "currentTaskNum": 11,
+  "totalLLMCalls": 30,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 10,
-    "content": "## Task #10: Implement Touch Controls\n\nDevelop touch controls for mobile/iPhone and keyboard fallback for desktop.",
-    "updatedAt": "2026-09-20T05:24:51.712Z"
+    "taskId": 11,
+    "content": "## Task #11: Add Score and Lives System\n\nImplement a system to track the player's score and lives.",
+    "updatedAt": "2026-09-20T05:25:51.589Z"
   },
   "feedback": {
-    "taskId": 10,
+    "taskId": 11,
     "content": "",
-    "updatedAt": "2026-09-20T05:24:51.713Z"
+    "updatedAt": "2026-09-20T05:25:51.589Z"
   },
-  "lastUpdated": "2026-09-20T05:25:51.525Z"
+  "lastUpdated": "2026-09-20T05:26:36.994Z"
 }

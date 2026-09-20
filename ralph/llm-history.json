@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T05:25:51.522Z",
-  "lifetimeCalls": 14,
+  "lastUpdated": "2026-09-20T05:26:36.992Z",
+  "lifetimeCalls": 16,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 7,
-    "qa": 7,
+    "dev": 8,
+    "qa": 8,
     "review": 0
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 14,
+    "calls": 16,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 7,
-      "qa": 7,
+      "dev": 8,
+      "qa": 8,
       "review": 0
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789881996992_8y61",
+      "timestamp": "2026-09-20T05:26:36.992Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 11,
+      "taskTitle": "Add Score and Lives System",
+      "durationMs": 7158,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789881989828_9l9v",
+      "timestamp": "2026-09-20T05:26:29.828Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 11,
+      "taskTitle": "Add Score and Lives System",
+      "durationMs": 38237,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789881951522_mx27",
       "timestamp": "2026-09-20T05:25:51.522Z",
