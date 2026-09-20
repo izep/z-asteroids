@@ -32,8 +32,8 @@
       "id": 6,
       "title": "Implement Asteroid Splitting",
       "description": "Develop the functionality for asteroids to split into smaller asteroids upon collision.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 7,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 5,
-  "totalLLMCalls": 18,
+  "currentTaskNum": 6,
+  "totalLLMCalls": 20,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 5,
-    "content": "## Task #5: Implement Asteroid Spawning and Movement\n\nCode the logic for spawning asteroids and their movement across the screen.",
-    "updatedAt": "2026-09-20T05:18:49.239Z"
+    "taskId": 6,
+    "content": "## Task #6: Implement Asteroid Splitting\n\nDevelop the functionality for asteroids to split into smaller asteroids upon collision.",
+    "updatedAt": "2026-09-20T05:19:45.412Z"
   },
   "feedback": {
-    "taskId": 5,
+    "taskId": 6,
     "content": "",
-    "updatedAt": "2026-09-20T05:18:49.240Z"
+    "updatedAt": "2026-09-20T05:19:45.412Z"
   },
-  "lastUpdated": "2026-09-20T05:19:45.338Z"
+  "lastUpdated": "2026-09-20T05:20:35.608Z"
 }

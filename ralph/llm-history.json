@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T05:19:45.333Z",
-  "lifetimeCalls": 4,
+  "lastUpdated": "2026-09-20T05:20:35.603Z",
+  "lifetimeCalls": 6,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 2,
-    "qa": 2,
+    "dev": 3,
+    "qa": 3,
     "review": 0
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 4,
+    "calls": 6,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 2,
-      "qa": 2,
+      "dev": 3,
+      "qa": 3,
       "review": 0
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789881635603_ebm2",
+      "timestamp": "2026-09-20T05:20:35.603Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 6,
+      "taskTitle": "Implement Asteroid Splitting",
+      "durationMs": 8621,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789881626974_teet",
+      "timestamp": "2026-09-20T05:20:26.974Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 6,
+      "taskTitle": "Implement Asteroid Splitting",
+      "durationMs": 41560,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789881585333_6rtx",
       "timestamp": "2026-09-20T05:19:45.333Z",
