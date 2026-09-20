@@ -2,27 +2,63 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T18:25:27.623Z",
-  "lifetimeCalls": 36,
+  "lastUpdated": "2026-09-20T22:40:06.238Z",
+  "lifetimeCalls": 39,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 18,
-    "qa": 17,
+    "dev": 19,
+    "qa": 19,
     "review": 1
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 36,
+    "calls": 39,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 18,
-      "qa": 17,
+      "dev": 19,
+      "qa": 19,
       "review": 1
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789944006238_wbst",
+      "timestamp": "2026-09-20T22:40:06.238Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 19,
+      "taskTitle": "Test on iPhone",
+      "durationMs": 14464,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789928771604_7paw",
+      "timestamp": "2026-09-20T18:26:11.604Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 19,
+      "taskTitle": "Test on iPhone",
+      "durationMs": 22651,
+      "status": "failed",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789928748947_cpjm",
+      "timestamp": "2026-09-20T18:25:48.947Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 19,
+      "taskTitle": "Test on iPhone",
+      "durationMs": 21240,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789928727623_6mau",
       "timestamp": "2026-09-20T18:25:27.623Z",
