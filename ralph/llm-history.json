@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T18:23:36.592Z",
-  "lifetimeCalls": 30,
+  "lastUpdated": "2026-09-20T18:24:07.556Z",
+  "lifetimeCalls": 32,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 15,
-    "qa": 14,
+    "dev": 16,
+    "qa": 15,
     "review": 1
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 30,
+    "calls": 32,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 15,
-      "qa": 14,
+      "dev": 16,
+      "qa": 15,
       "review": 1
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789928647556_9834",
+      "timestamp": "2026-09-20T18:24:07.556Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 16,
+      "taskTitle": "Create PWA Manifest",
+      "durationMs": 4578,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789928642973_5xnf",
+      "timestamp": "2026-09-20T18:24:02.973Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 16,
+      "taskTitle": "Create PWA Manifest",
+      "durationMs": 26302,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789928616592_qsrm",
       "timestamp": "2026-09-20T18:23:36.592Z",

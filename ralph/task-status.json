@@ -102,8 +102,8 @@
       "id": 16,
       "title": "Create PWA Manifest",
       "description": "Develop the `manifest.json` file for PWA functionality.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 17,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 15,
-  "totalLLMCalls": 43,
+  "currentTaskNum": 16,
+  "totalLLMCalls": 45,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 15,
-    "content": "## Task #15: Optimize Performance\n\nProfile and optimize the game for smooth 60 FPS performance.",
-    "updatedAt": "2026-09-20T18:23:00.755Z"
+    "taskId": 16,
+    "content": "## Task #16: Create PWA Manifest\n\nDevelop the `manifest.json` file for PWA functionality.",
+    "updatedAt": "2026-09-20T18:23:36.667Z"
   },
   "feedback": {
-    "taskId": 15,
+    "taskId": 16,
     "content": "",
-    "updatedAt": "2026-09-20T18:23:00.756Z"
+    "updatedAt": "2026-09-20T18:23:36.669Z"
   },
-  "lastUpdated": "2026-09-20T18:23:36.595Z"
+  "lastUpdated": "2026-09-20T18:24:07.559Z"
 }
