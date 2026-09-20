@@ -1,0 +1,166 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Initialize Project Structure",
+      "description": "Set up the basic project structure, including Vite, TypeScript, and necessary dependencies.",
+      "status": "done",
+      "iteration": 1
+    },
+    {
+      "id": 2,
+      "title": "Create Canvas Renderer",
+      "description": "Implement a basic canvas renderer with high-DPI scaling and glowing CRT wireframe aesthetics.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 3,
+      "title": "Implement Ship Physics",
+      "description": "Develop the ship physics including inertia, rotation, thrust, boundary wrapping, and invulnerability.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 4,
+      "title": "Design Asteroid Shapes",
+      "description": "Create vector-based shapes for asteroids with random jagged edges.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 5,
+      "title": "Implement Asteroid Spawning and Movement",
+      "description": "Code the logic for spawning asteroids and their movement across the screen.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 6,
+      "title": "Implement Asteroid Splitting",
+      "description": "Develop the functionality for asteroids to split into smaller asteroids upon collision.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 7,
+      "title": "Create Projectile System",
+      "description": "Implement the logic for shooting projectiles and collision detection with asteroids.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 8,
+      "title": "Add Particle Effects",
+      "description": "Create particle effects for explosions and other visual enhancements.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 9,
+      "title": "Develop Web Audio Synthesizer",
+      "description": "Create a procedural synthesizer for sound effects like thrust, fire, and explosions.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 10,
+      "title": "Implement Touch Controls",
+      "description": "Develop touch controls for mobile/iPhone and keyboard fallback for desktop.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 11,
+      "title": "Add Score and Lives System",
+      "description": "Implement a system to track the player's score and lives.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 12,
+      "title": "Create Game Loop",
+      "description": "Develop the main game loop to handle rendering, physics, and input processing.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 13,
+      "title": "Add Parallax Background",
+      "description": "Implement a parallax background with a starfield effect.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 14,
+      "title": "Develop Unit Tests",
+      "description": "Write unit tests for the core physics, collision detection, and scoring logic.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 15,
+      "title": "Optimize Performance",
+      "description": "Profile and optimize the game for smooth 60 FPS performance.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 16,
+      "title": "Create PWA Manifest",
+      "description": "Develop the `manifest.json` file for PWA functionality.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 17,
+      "title": "Implement Service Worker",
+      "description": "Create a service worker to cache core assets for offline playability.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 18,
+      "title": "Add High Score Persistence",
+      "description": "Implement local storage for high score and audio settings.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 19,
+      "title": "Test on iPhone",
+      "description": "Thoroughly test the game on an iPhone to ensure compatibility and performance.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 20,
+      "title": "Test on Desktop Browsers",
+      "description": "Test the game on various desktop browsers to ensure cross-browser compatibility.",
+      "status": "backlog",
+      "iteration": 0
+    },
+    {
+      "id": 21,
+      "title": "Fix Bugs and Optimize",
+      "description": "Fix any bugs found during testing and further optimize performance.",
+      "status": "backlog",
+      "iteration": 0
+    }
+  ],
+  "currentTaskNum": 1,
+  "totalLLMCalls": 3,
+  "maxLLMCalls": 100,
+  "consecutiveQaFailures": 0,
+  "nextTask": {
+    "taskId": 1,
+    "content": "```json\n[\n  { \"id\": 1, \"title\": \"Initialize Project Structure\", \"description\": \"Set up the basic project structure, including Vite, TypeScript, and necessary dependencies.\", \"status\": \"backlog\" },\n  { \"id\": 2, \"title\": \"Create Canvas Renderer\", \"description\": \"Implement a basic canvas renderer with high-DPI scaling and glowing CRT wireframe aesthetics.\", \"status\": \"backlog\" },\n  { \"id\": 3, \"title\": \"Implement Ship Physics\", \"description\": \"Develop the ship physics including inertia, rotation, thrust, boundary wrapping, and invulnerability.\", \"status\": \"backlog\" },\n  { \"id\": 4, \"title\": \"Design Asteroid Shapes\", \"description\": \"Create vector-based shapes for asteroids with random jagged edges.\", \"status\": \"backlog\" },\n  { \"id\": 5, \"title\": \"Implement Asteroid Spawning and Movement\", \"description\": \"Code the logic for spawning asteroids and their movement across the screen.\", \"status\": \"backlog\" },\n  { \"id\": 6, \"title\": \"Implement Asteroid Splitting\", \"description\": \"Develop the functionality for asteroids to split into smaller asteroids upon collision.\", \"status\": \"backlog\" },\n  { \"id\": 7, \"title\": \"Create Projectile System\", \"description\": \"Implement the logic for shooting projectiles and collision detection with asteroids.\", \"status\": \"backlog\" },\n  { \"id\": 8, \"title\": \"Add Particle Effects\", \"description\": \"Create particle effects for explosions and other visual enhancements.\", \"status\": \"backlog\" },\n  { \"id\": 9, \"title\": \"Develop Web Audio Synthesizer\", \"description\": \"Create a procedural synthesizer for sound effects like thrust, fire, and explosions.\", \"status\": \"backlog\" },\n  { \"id\": 10, \"title\": \"Implement Touch Controls\", \"description\": \"Develop touch controls for mobile/iPhone and keyboard fallback for desktop.\", \"status\": \"backlog\" },\n  { \"id\": 11, \"title\": \"Add Score and Lives System\", \"description\": \"Implement a system to track the player's score and lives.\", \"status\": \"backlog\" },\n  { \"id\": 12, \"title\": \"Create Game Loop\", \"description\": \"Develop the main game loop to handle rendering, physics, and input processing.\", \"status\": \"backlog\" },\n  { \"id\": 13, \"title\": \"Add Parallax Background\", \"description\": \"Implement a parallax background with a starfield effect.\", \"status\": \"backlog\" },\n  { \"id\": 14, \"title\": \"Develop Unit Tests\", \"description\": \"Write unit tests for the core physics, collision detection, and scoring logic.\", \"status\": \"backlog\" },\n  { \"id\": 15, \"title\": \"Optimize Performance\", \"description\": \"Profile and optimize the game for smooth 60 FPS performance.\", \"status\": \"backlog\" },\n  { \"id\": 16, \"title\": \"Create PWA Manifest\", \"description\": \"Develop the `manifest.json` file for PWA functionality.\", \"status\": \"backlog\" },\n  { \"id\": 17, \"title\": \"Implement Service Worker\", \"description\": \"Create a service worker to cache core assets for offline playability.\", \"status\": \"backlog\" },\n  { \"id\": 18, \"title\": \"Add High Score Persistence\", \"description\": \"Implement local storage for high score and audio settings.\", \"status\": \"backlog\" },\n  { \"id\": 19, \"title\": \"Test on iPhone\", \"description\": \"Thoroughly test the game on an iPhone to ensure compatibility and performance.\", \"status\": \"backlog\" },\n  { \"id\": 20, \"title\": \"Test on Desktop Browsers\", \"description\": \"Test the game on various desktop browsers to ensure cross-browser compatibility.\", \"status\": \"backlog\" },\n  { \"id\": 21, \"title\": \"Fix Bugs and Optimize\", \"description\": \"Fix any bugs found during testing and further optimize performance.\", \"status\": \"backlog\" }\n]\n```\n\n### Next Task Description\n\n**Task:** Initialize Project Structure\n\n**Description:**\nSet up the basic project structure, including Vite, TypeScript, and necessary dependencies.\n\n**Implementation Guidance:**\n1. Create a new directory for your project.\n2. Initialize a new Vite project using the command: `npm create vite@latest z-asteroids --template vanilla-ts`.\n3. Install any additional dependencies required for the project, such as `@types/node` for TypeScript type definitions.\n4. Create a `src` directory and add the necessary TypeScript files, such as `main.ts` and `types.ts`.\n5. Configure the `tsconfig.json` file to ensure TypeScript is set up correctly.\n6. Set up the basic HTML structure in the `index.html` file, including a canvas element for rendering.\n\n**Testing Steps:**\n1. Run the project using the command: `npm run dev`.\n2. Ensure that the Vite development server starts successfully and that the basic HTML structure is displayed.\n3. Verify that the TypeScript files are being compiled and transpiled correctly.\n\n**Acceptance Criteria:**\n- The project structure is initialized with Vite, TypeScript, and necessary dependencies.\n- The `src` directory contains the basic TypeScript files.\n- The `tsconfig.json` file is configured correctly.\n- The `index.html` file includes a canvas element for rendering.\n- The project runs successfully using the Vite development server.\n\n```\n<task-id>1</task-id>\n```",
+    "updatedAt": "2026-09-20T03:15:19.212Z"
+  },
+  "feedback": {
+    "taskId": 1,
+    "content": "",
+    "updatedAt": "2026-09-20T03:15:19.213Z"
+  },
+  "lastUpdated": "2026-09-20T03:16:40.865Z"
+}
