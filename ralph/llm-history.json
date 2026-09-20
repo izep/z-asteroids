@@ -1,0 +1,51 @@
+{
+  "projectId": "proj_1789873929763_uu9e",
+  "projectName": "z-asteroids",
+  "createdAt": "2026-09-20T05:18:40.495Z",
+  "lastUpdated": "2026-09-20T05:18:49.189Z",
+  "lifetimeCalls": 2,
+  "lifetimePhaseBreakdown": {
+    "plan": 0,
+    "dev": 1,
+    "qa": 1,
+    "review": 0
+  },
+  "currentEpic": {
+    "epicTitle": "Default Epic",
+    "startedAt": "2026-09-20T05:18:40.495Z",
+    "calls": 2,
+    "phaseBreakdown": {
+      "plan": 0,
+      "dev": 1,
+      "qa": 1,
+      "review": 0
+    }
+  },
+  "epics": [],
+  "recentCalls": [
+    {
+      "id": "call_1789881529189_9zb1",
+      "timestamp": "2026-09-20T05:18:49.189Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 4,
+      "taskTitle": "Design Asteroid Shapes",
+      "durationMs": 8689,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789881520497_jocp",
+      "timestamp": "2026-09-20T05:18:40.497Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 4,
+      "taskTitle": "Design Asteroid Shapes",
+      "durationMs": 41925,
+      "status": "done",
+      "details": "Dev iteration #1"
+    }
+  ]
+}

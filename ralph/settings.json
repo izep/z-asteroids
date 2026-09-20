@@ -1,0 +1,30 @@
+{
+  "planEngine": "ollama",
+  "devEngine": "ollama",
+  "qaEngine": "ollama",
+  "planModel": "qwen2.5-coder:7b",
+  "devModel": "qwen2.5-coder:7b",
+  "qaModel": "qwen2.5-coder:7b",
+  "ollamaBaseUrl": "http://127.0.0.1:11434",
+  "devReasoningEffort": "medium",
+  "qaReasoningEffort": "high",
+  "maxLLMCalls": 200,
+  "planFrequency": 1,
+  "minBacklogSize": 3,
+  "autoCommit": true,
+  "agyReviewOnMilestone": true,
+  "agyReviewOnRepeatedFailures": true,
+  "maxQaFailuresBeforeAgyReview": 2,
+  "agyPath": "/Users/izep/.local/bin/agy",
+  "preferredPackageManager": "pnpm",
+  "allowedCommands": [
+    "pnpm",
+    "npm",
+    "npx",
+    "git",
+    "vitest",
+    "tsc",
+    "vite",
+    "node"
+  ]
+}

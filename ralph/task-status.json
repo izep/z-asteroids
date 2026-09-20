@@ -18,8 +18,8 @@
       "id": 4,
       "title": "Design Asteroid Shapes",
       "description": "Create vector-based shapes for asteroids with random jagged edges.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 5,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 3,
-  "totalLLMCalls": 14,
-  "maxLLMCalls": 100,
+  "currentTaskNum": 4,
+  "totalLLMCalls": 16,
+  "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 3,
-    "content": "```json\n[\n  {\n    \"id\": 3,\n    \"title\": \"Implement Ship Physics\",\n    \"description\": \"Develop the ship physics including inertia, rotation, thrust, boundary wrapping, and invulnerability.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 4,\n    \"title\": \"Design Asteroid Shapes\",\n    \"description\": \"Create vector-based shapes for asteroids with random jagged edges.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 5,\n    \"title\": \"Implement Asteroid Spawning and Movement\",\n    \"description\": \"Code the logic for spawning asteroids and their movement across the screen.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 6,\n    \"title\": \"Implement Asteroid Splitting\",\n    \"description\": \"Develop the functionality for asteroids to split into smaller asteroids upon collision.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 7,\n    \"title\": \"Create Projectile System\",\n    \"description\": \"Implement the logic for shooting projectiles and collision detection with asteroids.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 8,\n    \"title\": \"Add Particle Effects\",\n    \"description\": \"Create particle effects for explosions and other visual enhancements.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 9,\n    \"title\": \"Develop Web Audio Synthesizer\",\n    \"description\": \"Create a procedural synthesizer for sound effects like thrust, fire, and explosions.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 10,\n    \"title\": \"Implement Touch Controls\",\n    \"description\": \"Develop touch controls for mobile/iPhone and keyboard fallback for desktop.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 11,\n    \"title\": \"Add Score and Lives System\",\n    \"description\": \"Implement a system to track the player's score and lives.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 12,\n    \"title\": \"Create Game Loop\",\n    \"description\": \"Develop the main game loop to handle rendering, physics, and input processing.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 13,\n    \"title\": \"Add Parallax Background\",\n    \"description\": \"Implement a parallax background with a starfield effect.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 14,\n    \"title\": \"Develop Unit Tests\",\n    \"description\": \"Write unit tests for the core physics, collision detection, and scoring logic.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 15,\n    \"title\": \"Optimize Performance\",\n    \"description\": \"Profile and optimize the game for smooth 60 FPS performance.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 16,\n    \"title\": \"Create PWA Manifest\",\n    \"description\": \"Develop the `manifest.json` file for PWA functionality.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 17,\n    \"title\": \"Implement Service Worker\",\n    \"description\": \"Create a service worker to cache core assets for offline playability.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 18,\n    \"title\": \"Add High Score Persistence\",\n    \"description\": \"Implement local storage for high score and audio settings.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 19,\n    \"title\": \"Test on iPhone\",\n    \"description\": \"Thoroughly test the game on an iPhone to ensure compatibility and performance.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 20,\n    \"title\": \"Test on Desktop Browsers\",\n    \"description\": \"Test the game on various desktop browsers to ensure cross-browser compatibility.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 21,\n    \"title\": \"Fix Bugs and Optimize\",\n    \"description\": \"Fix any bugs found during testing and further optimize performance.\",\n    \"status\": \"backlog\"\n  }\n]\n```\n\n### Next Task Description\n\n**Task:** Implement Ship Physics\n\n**Why it matters:** The ship physics are the foundation of the game, providing the player with control over the ship's movement and actions. This is essential for the player to interact with the game and engage in gameplay.\n\n**Implementation Guidance:**\n1. **Inertial Momentum:** Implement a simple physics engine that allows the ship to accelerate in the direction it is heading and retain momentum with a slight drag effect.\n2. **Rotation:** Add smooth rotation functionality for the ship left and right.\n3. **Screen Wrapping:** Ensure that the ship wraps smoothly across the screen boundaries without teleport glitches.\n4. **Hyperspace:** Implement a quick button to teleport the ship to a random location on the screen with a slight risk of spawning into an asteroid.\n5. **Shields / Invulnerability:** Add a 3-second spawn shield with a glowing vector outline to protect the ship from immediate damage.\n\n**Testing Steps:**\n1. **Unit Tests:** Write unit tests for the ship's movement, rotation, and boundary wrapping.\n2. **Manual Testing:** Test the ship's movement and rotation on both desktop and mobile devices.\n3. **Edge Cases:** Ensure that the ship behaves correctly when it spawns near the edges of the screen and when it teleports into an asteroid.\n\n**Acceptance Criteria:**\n1. The ship should move smoothly in the direction it is heading with inertial momentum.\n2. The ship should rotate smoothly left and right.\n3. The ship should wrap smoothly across the screen boundaries without teleport glitches.\n4. The ship should teleport to a random location on the screen when the hyperspace button is pressed.\n5. The ship should have a 3-second invulnerability shield with a glowing vector outline upon spawning.\n6. All unit tests should pass with 100% coverage.\n7. The ship should behave correctly on both desktop and mobile devices.\n\n<task-id>3</task-id>",
-    "updatedAt": "2026-09-20T05:08:15.969Z"
+    "taskId": 4,
+    "content": "## Task #4: Design Asteroid Shapes\n\nCreate vector-based shapes for asteroids with random jagged edges.",
+    "updatedAt": "2026-09-20T05:17:58.562Z"
   },
   "feedback": {
-    "taskId": 3,
+    "taskId": 4,
     "content": "",
-    "updatedAt": "2026-09-20T05:08:15.971Z"
+    "updatedAt": "2026-09-20T05:17:58.565Z"
   },
-  "lastUpdated": "2026-09-20T05:10:12.756Z"
+  "lastUpdated": "2026-09-20T05:18:49.192Z"
 }
