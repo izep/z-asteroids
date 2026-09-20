@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T18:24:07.556Z",
-  "lifetimeCalls": 32,
+  "lastUpdated": "2026-09-20T18:24:54.884Z",
+  "lifetimeCalls": 34,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 16,
-    "qa": 15,
+    "dev": 17,
+    "qa": 16,
     "review": 1
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 32,
+    "calls": 34,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 16,
-      "qa": 15,
+      "dev": 17,
+      "qa": 16,
       "review": 1
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789928694884_81dk",
+      "timestamp": "2026-09-20T18:24:54.884Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 17,
+      "taskTitle": "Implement Service Worker",
+      "durationMs": 5888,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789928688990_gou0",
+      "timestamp": "2026-09-20T18:24:48.990Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 17,
+      "taskTitle": "Implement Service Worker",
+      "durationMs": 41363,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789928647556_9834",
       "timestamp": "2026-09-20T18:24:07.556Z",
