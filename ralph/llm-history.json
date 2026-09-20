@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T18:23:00.675Z",
-  "lifetimeCalls": 28,
+  "lastUpdated": "2026-09-20T18:23:36.592Z",
+  "lifetimeCalls": 30,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 14,
-    "qa": 13,
+    "dev": 15,
+    "qa": 14,
     "review": 1
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 28,
+    "calls": 30,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 14,
-      "qa": 13,
+      "dev": 15,
+      "qa": 14,
       "review": 1
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789928616592_qsrm",
+      "timestamp": "2026-09-20T18:23:36.592Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 15,
+      "taskTitle": "Optimize Performance",
+      "durationMs": 5086,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789928611501_wprx",
+      "timestamp": "2026-09-20T18:23:31.501Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 15,
+      "taskTitle": "Optimize Performance",
+      "durationMs": 30743,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789928580675_kt3l",
       "timestamp": "2026-09-20T18:23:00.675Z",

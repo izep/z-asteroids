@@ -95,8 +95,8 @@
       "id": 15,
       "title": "Optimize Performance",
       "description": "Profile and optimize the game for smooth 60 FPS performance.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 16,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 14,
-  "totalLLMCalls": 41,
+  "currentTaskNum": 15,
+  "totalLLMCalls": 43,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 14,
-    "content": "## Task #14: Develop Unit Tests\n\nWrite unit tests for the core physics, collision detection, and scoring logic.",
-    "updatedAt": "2026-09-20T18:14:22.376Z"
+    "taskId": 15,
+    "content": "## Task #15: Optimize Performance\n\nProfile and optimize the game for smooth 60 FPS performance.",
+    "updatedAt": "2026-09-20T18:23:00.755Z"
   },
   "feedback": {
-    "taskId": 14,
-    "content": "```\n<status>inQa</status>\n```",
-    "updatedAt": "2026-09-20T18:18:05.799Z"
+    "taskId": 15,
+    "content": "",
+    "updatedAt": "2026-09-20T18:23:00.756Z"
   },
-  "lastUpdated": "2026-09-20T18:23:00.680Z"
+  "lastUpdated": "2026-09-20T18:23:36.595Z"
 }
