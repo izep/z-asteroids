@@ -2,27 +2,111 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T18:14:22.316Z",
-  "lifetimeCalls": 21,
+  "lastUpdated": "2026-09-20T18:23:00.675Z",
+  "lifetimeCalls": 28,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 11,
-    "qa": 10,
-    "review": 0
+    "dev": 14,
+    "qa": 13,
+    "review": 1
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 21,
+    "calls": 28,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 11,
-      "qa": 10,
-      "review": 0
+      "dev": 14,
+      "qa": 13,
+      "review": 1
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789928580675_kt3l",
+      "timestamp": "2026-09-20T18:23:00.675Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 14,
+      "taskTitle": "Develop Unit Tests",
+      "durationMs": 5707,
+      "status": "verified",
+      "details": "QA iteration #3"
+    },
+    {
+      "id": "call_1789928574962_qpw0",
+      "timestamp": "2026-09-20T18:22:54.962Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 14,
+      "taskTitle": "Develop Unit Tests",
+      "durationMs": 36311,
+      "status": "done",
+      "details": "Dev iteration #3"
+    },
+    {
+      "id": "call_1789928538639_pw6f",
+      "timestamp": "2026-09-20T18:22:18.639Z",
+      "epicTitle": "Default Epic",
+      "phase": "review",
+      "model": "google-antigravity",
+      "taskId": 14,
+      "taskTitle": "Develop Unit Tests",
+      "durationMs": 252837,
+      "status": "done",
+      "details": "AGY review (qa_failure_loop)"
+    },
+    {
+      "id": "call_1789928285795_jxy1",
+      "timestamp": "2026-09-20T18:18:05.795Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 14,
+      "taskTitle": "Develop Unit Tests",
+      "durationMs": 5927,
+      "status": "failed",
+      "details": "QA iteration #2"
+    },
+    {
+      "id": "call_1789928279863_o5pn",
+      "timestamp": "2026-09-20T18:17:59.863Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 14,
+      "taskTitle": "Develop Unit Tests",
+      "durationMs": 34130,
+      "status": "done",
+      "details": "Dev iteration #2"
+    },
+    {
+      "id": "call_1789928245724_p0rz",
+      "timestamp": "2026-09-20T18:17:25.724Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 14,
+      "taskTitle": "Develop Unit Tests",
+      "durationMs": 10589,
+      "status": "failed",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789928235127_2496",
+      "timestamp": "2026-09-20T18:17:15.127Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 14,
+      "taskTitle": "Develop Unit Tests",
+      "durationMs": 172748,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789928062316_t9x4",
       "timestamp": "2026-09-20T18:14:22.316Z",

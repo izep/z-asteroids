@@ -1,20 +1,20 @@
 # 📊 LLM Loop Metrics & Artifact Ledger
 
 > **Project**: `z-asteroids` (proj_1789873929763_uu9e)  
-> **Lifetime LLM Calls**: **21**  
-> **Lifetime Breakdown**: 📋 Plan: 0 | 💻 Dev: 11 | 🧪 QA: 10 | 🛡️ Review: 0  
-> **Last Updated**: `2026-09-20T18:14:22.316Z`
+> **Lifetime LLM Calls**: **28**  
+> **Lifetime Breakdown**: 📋 Plan: 0 | 💻 Dev: 14 | 🧪 QA: 13 | 🛡️ Review: 1  
+> **Last Updated**: `2026-09-20T18:23:00.675Z`
 
 ---
 
 ## 🎯 Current Epic: Default Epic
 - **Started**: `2026-09-20T05:18:40.495Z`
-- **Epic Calls**: **21**
+- **Epic Calls**: **28**
 - **Phase Distribution**:
   - 📋 **Plan Phase**: 0 calls
-  - 💻 **Dev Phase**: 11 calls
-  - 🧪 **QA Phase**: 10 calls
-  - 🛡️ **Review Phase**: 0 calls
+  - 💻 **Dev Phase**: 14 calls
+  - 🧪 **QA Phase**: 13 calls
+  - 🛡️ **Review Phase**: 1 calls
 
 ---
 
@@ -26,6 +26,13 @@ _No completed past epics recorded yet._
 ## 🕒 Recent LLM Invocations Ledger (Latest 30)
 | Timestamp | Phase | Model | Task | Status | Duration | Details |
 |:---|:---|:---|:---|:---|---:|:---|
+| 18:23:00 | `qa` | `qwen2.5-coder:7b` | #14 Develop Unit Tests | `verified` | 5.7s | QA iteration #3 |
+| 18:22:54 | `dev` | `qwen2.5-coder:7b` | #14 Develop Unit Tests | `done` | 36.3s | Dev iteration #3 |
+| 18:22:18 | `review` | `google-antigravity` | #14 Develop Unit Tests | `done` | 252.8s | AGY review (qa_failure_loop) |
+| 18:18:05 | `qa` | `qwen2.5-coder:7b` | #14 Develop Unit Tests | `failed` | 5.9s | QA iteration #2 |
+| 18:17:59 | `dev` | `qwen2.5-coder:7b` | #14 Develop Unit Tests | `done` | 34.1s | Dev iteration #2 |
+| 18:17:25 | `qa` | `qwen2.5-coder:7b` | #14 Develop Unit Tests | `failed` | 10.6s | QA iteration #1 |
+| 18:17:15 | `dev` | `qwen2.5-coder:7b` | #14 Develop Unit Tests | `done` | 172.7s | Dev iteration #1 |
 | 18:14:22 | `qa` | `qwen2.5-coder:7b` | #13 Add Parallax Background | `verified` | 94.1s | QA iteration #1 |
 | 18:12:48 | `dev` | `qwen2.5-coder:7b` | #13 Add Parallax Background | `done` | 38.0s | Dev iteration #1 |
 | 18:12:10 | `qa` | `qwen2.5-coder:7b` | #12 Create Game Loop | `verified` | 12.7s | QA iteration #1 |

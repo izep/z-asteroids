@@ -88,8 +88,8 @@
       "id": 14,
       "title": "Develop Unit Tests",
       "description": "Write unit tests for the core physics, collision detection, and scoring logic.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 3
     },
     {
       "id": 15,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 13,
-  "totalLLMCalls": 35,
+  "currentTaskNum": 14,
+  "totalLLMCalls": 41,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 13,
-    "content": "## Task #13: Add Parallax Background\n\nImplement a parallax background with a starfield effect.",
-    "updatedAt": "2026-09-20T18:12:10.256Z"
+    "taskId": 14,
+    "content": "## Task #14: Develop Unit Tests\n\nWrite unit tests for the core physics, collision detection, and scoring logic.",
+    "updatedAt": "2026-09-20T18:14:22.376Z"
   },
   "feedback": {
-    "taskId": 13,
-    "content": "",
-    "updatedAt": "2026-09-20T18:12:10.256Z"
+    "taskId": 14,
+    "content": "```\n<status>inQa</status>\n```",
+    "updatedAt": "2026-09-20T18:18:05.799Z"
   },
-  "lastUpdated": "2026-09-20T18:14:22.319Z"
+  "lastUpdated": "2026-09-20T18:23:00.680Z"
 }
