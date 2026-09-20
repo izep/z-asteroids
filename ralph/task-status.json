@@ -39,8 +39,8 @@
       "id": 7,
       "title": "Create Projectile System",
       "description": "Implement the logic for shooting projectiles and collision detection with asteroids.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 8,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 6,
-  "totalLLMCalls": 20,
+  "currentTaskNum": 7,
+  "totalLLMCalls": 22,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 6,
-    "content": "## Task #6: Implement Asteroid Splitting\n\nDevelop the functionality for asteroids to split into smaller asteroids upon collision.",
-    "updatedAt": "2026-09-20T05:19:45.412Z"
+    "taskId": 7,
+    "content": "## Task #7: Create Projectile System\n\nImplement the logic for shooting projectiles and collision detection with asteroids.",
+    "updatedAt": "2026-09-20T05:20:35.676Z"
   },
   "feedback": {
-    "taskId": 6,
+    "taskId": 7,
     "content": "",
-    "updatedAt": "2026-09-20T05:19:45.412Z"
+    "updatedAt": "2026-09-20T05:20:35.677Z"
   },
-  "lastUpdated": "2026-09-20T05:20:35.608Z"
+  "lastUpdated": "2026-09-20T05:22:56.352Z"
 }
