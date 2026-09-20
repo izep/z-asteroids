@@ -46,8 +46,8 @@
       "id": 8,
       "title": "Add Particle Effects",
       "description": "Create particle effects for explosions and other visual enhancements.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 9,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 7,
-  "totalLLMCalls": 22,
+  "currentTaskNum": 8,
+  "totalLLMCalls": 24,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 7,
-    "content": "## Task #7: Create Projectile System\n\nImplement the logic for shooting projectiles and collision detection with asteroids.",
-    "updatedAt": "2026-09-20T05:20:35.676Z"
+    "taskId": 8,
+    "content": "## Task #8: Add Particle Effects\n\nCreate particle effects for explosions and other visual enhancements.",
+    "updatedAt": "2026-09-20T05:22:56.421Z"
   },
   "feedback": {
-    "taskId": 7,
+    "taskId": 8,
     "content": "",
-    "updatedAt": "2026-09-20T05:20:35.677Z"
+    "updatedAt": "2026-09-20T05:22:56.421Z"
   },
-  "lastUpdated": "2026-09-20T05:22:56.352Z"
+  "lastUpdated": "2026-09-20T05:24:07.072Z"
 }

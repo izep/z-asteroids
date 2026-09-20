@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T05:22:56.346Z",
-  "lifetimeCalls": 8,
+  "lastUpdated": "2026-09-20T05:24:07.068Z",
+  "lifetimeCalls": 10,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 4,
-    "qa": 4,
+    "dev": 5,
+    "qa": 5,
     "review": 0
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 8,
+    "calls": 10,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 4,
-      "qa": 4,
+      "dev": 5,
+      "qa": 5,
       "review": 0
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789881847068_aqvz",
+      "timestamp": "2026-09-20T05:24:07.068Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 8,
+      "taskTitle": "Add Particle Effects",
+      "durationMs": 9978,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789881837084_8nmp",
+      "timestamp": "2026-09-20T05:23:57.084Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 8,
+      "taskTitle": "Add Particle Effects",
+      "durationMs": 60660,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789881776346_uhnv",
       "timestamp": "2026-09-20T05:22:56.346Z",
