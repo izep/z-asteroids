@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T18:24:54.884Z",
-  "lifetimeCalls": 34,
+  "lastUpdated": "2026-09-20T18:25:27.623Z",
+  "lifetimeCalls": 36,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 17,
-    "qa": 16,
+    "dev": 18,
+    "qa": 17,
     "review": 1
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 34,
+    "calls": 36,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 17,
-      "qa": 16,
+      "dev": 18,
+      "qa": 17,
       "review": 1
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789928727623_6mau",
+      "timestamp": "2026-09-20T18:25:27.623Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 18,
+      "taskTitle": "Add High Score Persistence",
+      "durationMs": 4444,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789928723172_u3sw",
+      "timestamp": "2026-09-20T18:25:23.172Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 18,
+      "taskTitle": "Add High Score Persistence",
+      "durationMs": 28205,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789928694884_81dk",
       "timestamp": "2026-09-20T18:24:54.884Z",

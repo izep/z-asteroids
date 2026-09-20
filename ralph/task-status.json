@@ -116,8 +116,8 @@
       "id": 18,
       "title": "Add High Score Persistence",
       "description": "Implement local storage for high score and audio settings.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 19,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 17,
-  "totalLLMCalls": 47,
+  "currentTaskNum": 18,
+  "totalLLMCalls": 49,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 17,
-    "content": "## Task #17: Implement Service Worker\n\nCreate a service worker to cache core assets for offline playability.",
-    "updatedAt": "2026-09-20T18:24:07.626Z"
+    "taskId": 18,
+    "content": "## Task #18: Add High Score Persistence\n\nImplement local storage for high score and audio settings.",
+    "updatedAt": "2026-09-20T18:24:54.964Z"
   },
   "feedback": {
-    "taskId": 17,
+    "taskId": 18,
     "content": "",
-    "updatedAt": "2026-09-20T18:24:07.626Z"
+    "updatedAt": "2026-09-20T18:24:54.965Z"
   },
-  "lastUpdated": "2026-09-20T18:24:54.889Z"
+  "lastUpdated": "2026-09-20T18:25:27.626Z"
 }
