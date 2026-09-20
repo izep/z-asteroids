@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T22:40:06.238Z",
-  "lifetimeCalls": 39,
+  "lastUpdated": "2026-09-20T22:40:54.443Z",
+  "lifetimeCalls": 41,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 19,
-    "qa": 19,
+    "dev": 20,
+    "qa": 20,
     "review": 1
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 39,
+    "calls": 41,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 19,
-      "qa": 19,
+      "dev": 20,
+      "qa": 20,
       "review": 1
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789944054443_385w",
+      "timestamp": "2026-09-20T22:40:54.443Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 20,
+      "taskTitle": "Test on Desktop Browsers",
+      "durationMs": 3829,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789944050609_3ftw",
+      "timestamp": "2026-09-20T22:40:50.609Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 20,
+      "taskTitle": "Test on Desktop Browsers",
+      "durationMs": 44293,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789944006238_wbst",
       "timestamp": "2026-09-20T22:40:06.238Z",
