@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T05:24:07.068Z",
-  "lifetimeCalls": 10,
+  "lastUpdated": "2026-09-20T05:24:51.642Z",
+  "lifetimeCalls": 12,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 5,
-    "qa": 5,
+    "dev": 6,
+    "qa": 6,
     "review": 0
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 10,
+    "calls": 12,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 5,
-      "qa": 5,
+      "dev": 6,
+      "qa": 6,
       "review": 0
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789881891642_ibnq",
+      "timestamp": "2026-09-20T05:24:51.642Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 9,
+      "taskTitle": "Develop Web Audio Synthesizer",
+      "durationMs": 7396,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789881884240_xfcm",
+      "timestamp": "2026-09-20T05:24:44.240Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 9,
+      "taskTitle": "Develop Web Audio Synthesizer",
+      "durationMs": 37093,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789881847068_aqvz",
       "timestamp": "2026-09-20T05:24:07.068Z",
