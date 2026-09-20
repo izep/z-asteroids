@@ -2,27 +2,51 @@
   "projectId": "proj_1789873929763_uu9e",
   "projectName": "z-asteroids",
   "createdAt": "2026-09-20T05:18:40.495Z",
-  "lastUpdated": "2026-09-20T18:12:10.172Z",
-  "lifetimeCalls": 19,
+  "lastUpdated": "2026-09-20T18:14:22.316Z",
+  "lifetimeCalls": 21,
   "lifetimePhaseBreakdown": {
     "plan": 0,
-    "dev": 10,
-    "qa": 9,
+    "dev": 11,
+    "qa": 10,
     "review": 0
   },
   "currentEpic": {
     "epicTitle": "Default Epic",
     "startedAt": "2026-09-20T05:18:40.495Z",
-    "calls": 19,
+    "calls": 21,
     "phaseBreakdown": {
       "plan": 0,
-      "dev": 10,
-      "qa": 9,
+      "dev": 11,
+      "qa": 10,
       "review": 0
     }
   },
   "epics": [],
   "recentCalls": [
+    {
+      "id": "call_1789928062316_t9x4",
+      "timestamp": "2026-09-20T18:14:22.316Z",
+      "epicTitle": "Default Epic",
+      "phase": "qa",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 13,
+      "taskTitle": "Add Parallax Background",
+      "durationMs": 94086,
+      "status": "verified",
+      "details": "QA iteration #1"
+    },
+    {
+      "id": "call_1789927968224_gpkg",
+      "timestamp": "2026-09-20T18:12:48.224Z",
+      "epicTitle": "Default Epic",
+      "phase": "dev",
+      "model": "qwen2.5-coder:7b",
+      "taskId": 13,
+      "taskTitle": "Add Parallax Background",
+      "durationMs": 37967,
+      "status": "done",
+      "details": "Dev iteration #1"
+    },
     {
       "id": "call_1789927930172_ivi3",
       "timestamp": "2026-09-20T18:12:10.172Z",

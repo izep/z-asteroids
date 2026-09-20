@@ -81,8 +81,8 @@
       "id": 13,
       "title": "Add Parallax Background",
       "description": "Implement a parallax background with a starfield effect.",
-      "status": "backlog",
-      "iteration": 0
+      "status": "done",
+      "iteration": 1
     },
     {
       "id": 14,
@@ -141,19 +141,19 @@
       "iteration": 0
     }
   ],
-  "currentTaskNum": 12,
-  "totalLLMCalls": 33,
+  "currentTaskNum": 13,
+  "totalLLMCalls": 35,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 12,
-    "content": "## Task #12: Create Game Loop\n\nDevelop the main game loop to handle rendering, physics, and input processing.",
-    "updatedAt": "2026-09-20T18:11:15.307Z"
+    "taskId": 13,
+    "content": "## Task #13: Add Parallax Background\n\nImplement a parallax background with a starfield effect.",
+    "updatedAt": "2026-09-20T18:12:10.256Z"
   },
   "feedback": {
-    "taskId": 12,
+    "taskId": 13,
     "content": "",
-    "updatedAt": "2026-09-20T18:11:15.309Z"
+    "updatedAt": "2026-09-20T18:12:10.256Z"
   },
-  "lastUpdated": "2026-09-20T18:12:10.177Z"
+  "lastUpdated": "2026-09-20T18:14:22.319Z"
 }
