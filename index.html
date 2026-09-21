@@ -2,21 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#0b0f19">
+  <link rel="manifest" href="/manifest.json">
   <title>z-asteroids</title>
   <style>
-    body, html {
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body {
       margin: 0;
       padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #0b0f19;
       overflow: hidden;
     }
-    canvas {
+    #game-container {
+      position: fixed;
+      top: env(safe-area-inset-top, 0px);
+      left: env(safe-area-inset-left, 0px);
+      right: env(safe-area-inset-right, 0px);
+      bottom: env(safe-area-inset-bottom, 0px);
+    }
+    #game-canvas {
       display: block;
+      width: 100%;
+      height: 100%;
+      touch-action: none;
     }
   </style>
 </head>
 <body>
-  <canvas id="gameCanvas"></canvas>
+  <div id="game-container">
+    <canvas id="game-canvas"></canvas>
+  </div>
   <script type="module" src="/src/main.ts"></script>
 </body>
 </html>

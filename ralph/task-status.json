@@ -2,158 +2,123 @@
   "tasks": [
     {
       "id": 1,
-      "title": "Initialize Project Structure",
-      "description": "Set up the basic project structure, including Vite, TypeScript, and necessary dependencies.",
-      "status": "done",
+      "title": "Setup project structure",
+      "description": "Create all required directories and files as defined in the source layout. Initialize main entry point and basic HTML structure.",
+      "status": "inProgress",
       "iteration": 1
+    },
+    {
+      "id": 2,
+      "title": "Implement game loop and state machine",
+      "description": "Build the core Game class with rAF loop, delta time handling, and state transitions (boot → playing → respawning → gameover → playing).",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 3,
-      "title": "Implement Ship Physics",
-      "description": "Develop the ship physics including inertia, rotation, thrust, boundary wrapping, and invulnerability.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement ship simulation",
+      "description": "Create ship state management including position, velocity, rotation, thrust, drag, and wrap behavior.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 4,
-      "title": "Design Asteroid Shapes",
-      "description": "Create vector-based shapes for asteroids with random jagged edges.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement asteroid simulation",
+      "description": "Build asteroid spawning, splitting logic, and physics including size-based scoring and collision handling.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 5,
-      "title": "Implement Asteroid Spawning and Movement",
-      "description": "Code the logic for spawning asteroids and their movement across the screen.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement projectile system",
+      "description": "Create laser bolt management with max 4 live bolts, firing cooldown, range, and lifetime.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 6,
-      "title": "Implement Asteroid Splitting",
-      "description": "Develop the functionality for asteroids to split into smaller asteroids upon collision.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement collision detection",
+      "description": "Build circle-circle and circle-polygon collision detection for ship/bolt vs asteroid interactions.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 7,
-      "title": "Create Projectile System",
-      "description": "Implement the logic for shooting projectiles and collision detection with asteroids.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement rendering system",
+      "description": "Create canvas-based vector rendering with glow effects, starfield parallax, and HUD display.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 8,
-      "title": "Add Particle Effects",
-      "description": "Create particle effects for explosions and other visual enhancements.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement keyboard input handling",
+      "description": "Add desktop keyboard controls for rotation, thrust, fire, hyperspace, mute, and restart.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 9,
-      "title": "Develop Web Audio Synthesizer",
-      "description": "Create a procedural synthesizer for sound effects like thrust, fire, and explosions.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement touch input handling",
+      "description": "Create dual-thumb touch controls for iPhone with rotate, thrust/fire zones, and optional hyperspace.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 10,
-      "title": "Implement Touch Controls",
-      "description": "Develop touch controls for mobile/iPhone and keyboard fallback for desktop.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement audio system",
+      "description": "Build Web Audio synthesizer for thrust, fire, explosion, hyperspace, and wave clear sounds.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 11,
-      "title": "Add Score and Lives System",
-      "description": "Implement a system to track the player's score and lives.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement persistence and PWA features",
+      "description": "Add localStorage for high score and mute settings, manifest.json, and service worker registration.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 12,
-      "title": "Create Game Loop",
-      "description": "Develop the main game loop to handle rendering, physics, and input processing.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement math utilities",
+      "description": "Create vector math helpers including wrap, clamp, random range, rotation, magnitude, and normalization.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 13,
-      "title": "Add Parallax Background",
-      "description": "Implement a parallax background with a starfield effect.",
-      "status": "done",
-      "iteration": 1
+      "title": "Implement particles system",
+      "description": "Build particle data structures for explosion effects with CPU ticked simulation and rendering.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 14,
-      "title": "Develop Unit Tests",
-      "description": "Write unit tests for the core physics, collision detection, and scoring logic.",
-      "status": "done",
-      "iteration": 3
+      "title": "Implement score and lives management",
+      "description": "Create scoring system with wave progression, lives tracking, and high score comparison.",
+      "status": "backlog",
+      "iteration": 0
     },
     {
       "id": 15,
-      "title": "Optimize Performance",
-      "description": "Profile and optimize the game for smooth 60 FPS performance.",
-      "status": "done",
-      "iteration": 1
-    },
-    {
-      "id": 16,
-      "title": "Create PWA Manifest",
-      "description": "Develop the `manifest.json` file for PWA functionality.",
-      "status": "done",
-      "iteration": 1
-    },
-    {
-      "id": 17,
-      "title": "Implement Service Worker",
-      "description": "Create a service worker to cache core assets for offline playability.",
-      "status": "done",
-      "iteration": 1
-    },
-    {
-      "id": 18,
-      "title": "Add High Score Persistence",
-      "description": "Implement local storage for high score and audio settings.",
-      "status": "done",
-      "iteration": 1
-    },
-    {
-      "id": 19,
-      "title": "Test on iPhone",
-      "description": "Thoroughly test the game on an iPhone to ensure compatibility and performance.",
-      "status": "done",
-      "iteration": 1
-    },
-    {
-      "id": 20,
-      "title": "Test on Desktop Browsers",
-      "description": "Test the game on various desktop browsers to ensure cross-browser compatibility.",
-      "status": "done",
-      "iteration": 1
-    },
-    {
-      "id": 21,
-      "title": "Fix Bugs and Optimize",
-      "description": "Fix any bugs found during testing and further optimize performance.",
+      "title": "Write unit tests for core modules",
+      "description": "Add comprehensive unit tests for math, ship, asteroid, projectile, collision, score, and particles modules.",
       "status": "backlog",
       "iteration": 0
     }
   ],
-  "currentTaskNum": 20,
-  "totalLLMCalls": 54,
+  "currentTaskNum": 1,
+  "totalLLMCalls": 55,
   "maxLLMCalls": 200,
   "consecutiveQaFailures": 0,
   "nextTask": {
-    "taskId": 20,
-    "content": "## Task #20: Test on Desktop Browsers\n\nTest the game on various desktop browsers to ensure cross-browser compatibility.",
-    "updatedAt": "2026-09-20T22:40:06.314Z"
+    "taskId": 1,
+    "content": "```json\n[\n  {\n    \"id\": 1,\n    \"title\": \"Setup project structure\",\n    \"description\": \"Create all required directories and files as defined in the source layout. Initialize main entry point and basic HTML structure.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 2,\n    \"title\": \"Implement game loop and state machine\",\n    \"description\": \"Build the core Game class with rAF loop, delta time handling, and state transitions (boot → playing → respawning → gameover → playing).\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 3,\n    \"title\": \"Implement ship simulation\",\n    \"description\": \"Create ship state management including position, velocity, rotation, thrust, drag, and wrap behavior.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 4,\n    \"title\": \"Implement asteroid simulation\",\n    \"description\": \"Build asteroid spawning, splitting logic, and physics including size-based scoring and collision handling.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 5,\n    \"title\": \"Implement projectile system\",\n    \"description\": \"Create laser bolt management with max 4 live bolts, firing cooldown, range, and lifetime.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 6,\n    \"title\": \"Implement collision detection\",\n    \"description\": \"Build circle-circle and circle-polygon collision detection for ship/bolt vs asteroid interactions.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 7,\n    \"title\": \"Implement rendering system\",\n    \"description\": \"Create canvas-based vector rendering with glow effects, starfield parallax, and HUD display.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 8,\n    \"title\": \"Implement keyboard input handling\",\n    \"description\": \"Add desktop keyboard controls for rotation, thrust, fire, hyperspace, mute, and restart.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 9,\n    \"title\": \"Implement touch input handling\",\n    \"description\": \"Create dual-thumb touch controls for iPhone with rotate, thrust/fire zones, and optional hyperspace.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 10,\n    \"title\": \"Implement audio system\",\n    \"description\": \"Build Web Audio synthesizer for thrust, fire, explosion, hyperspace, and wave clear sounds.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 11,\n    \"title\": \"Implement persistence and PWA features\",\n    \"description\": \"Add localStorage for high score and mute settings, manifest.json, and service worker registration.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 12,\n    \"title\": \"Implement math utilities\",\n    \"description\": \"Create vector math helpers including wrap, clamp, random range, rotation, magnitude, and normalization.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 13,\n    \"title\": \"Implement particles system\",\n    \"description\": \"Build particle data structures for explosion effects with CPU ticked simulation and rendering.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 14,\n    \"title\": \"Implement score and lives management\",\n    \"description\": \"Create scoring system with wave progression, lives tracking, and high score comparison.\",\n    \"status\": \"backlog\"\n  },\n  {\n    \"id\": 15,\n    \"title\": \"Write unit tests for core modules\",\n    \"description\": \"Add comprehensive unit tests for math, ship, asteroid, projectile, collision, score, and particles modules.\",\n    \"status\": \"backlog\"\n  }\n]\n```\n\n## Next Task: Setup project structure\n\n### What needs to be done and why it matters\nThis task sets up the complete project structure as defined in the requirements document. It's foundational because all subsequent implementation depends on having the correct directory layout, file names, and initial HTML structure. Without this proper setup, no other features can be meaningfully implemented.\n\n### Clear implementation guidance\n1. Create the following directory structure:\n   ```\n   src/\n     game.ts\n     main.ts\n     math.ts\n     sim/\n       ship.ts\n       asteroid.ts\n       projectile.ts\n       collision.ts\n       particles.ts\n       score.ts\n     render/\n       renderer.ts\n       starfield.ts\n       hud.ts\n     input/\n       keyboard.ts\n       touch.ts\n     audio.ts\n     storage.ts\n   public/\n     manifest.json\n     sw.js\n     icons/\n   ```\n\n2. Create `index.html` with:\n   - `<html lang=\"en\">` with viewport meta tags including `viewport-fit=cover`\n   - `apple-mobile-web-app-capable` and `mobile-web-app-capable` meta tags\n   - `theme-color` set to `#0b0f19`\n   - Full-viewport dark background (`#0b0f19`) with `overflow: hidden`\n   - Wrapper `#game-container` filling visual viewport\n   - Canvas element with id `#game-canvas`\n   - Module entry script pointing to `/src/main.ts`\n\n3. Create basic placeholder files for all modules with proper exports and imports as needed.\n\n### Testing steps\n1. Verify that `index.html` loads without errors\n2. Confirm that `src/main.ts` exists and can be imported by the HTML\n3. Ensure all required directories and files are present\n4. Run `pnpm build` to verify no compilation errors\n5. Open browser and confirm no 404s or blank screens\n\n### Acceptance criteria\n- All required files and directories exist with correct names\n- `index.html` contains the proper HTML structure with canvas element\n- `src/main.ts` exists and queries for `#game-canvas`\n- `pnpm test` exits 0 (even if no tests yet)\n- `pnpm build` exits 0\n- The page loads without errors in browser\n- No console.log stubs or empty exports remain\n\n<task-id>1</task-id>",
+    "updatedAt": "2026-09-20T23:50:27.547Z"
   },
   "feedback": {
-    "taskId": 20,
+    "taskId": 1,
     "content": "",
-    "updatedAt": "2026-09-20T22:40:06.315Z"
+    "updatedAt": "2026-09-21T03:08:59.094Z"
   },
-  "lastUpdated": "2026-09-20T22:40:54.448Z"
+  "lastUpdated": "2026-09-21T03:08:59.094Z"
 }
