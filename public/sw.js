@@ -1,10 +1,17 @@
 // z-asteroids service worker — offline-first cache for app shell assets.
-const CACHE = 'z-asteroids-v1';
+// Deployed under /z-asteroids/ on GitHub Pages; works at / in dev.
+const CACHE = 'z-asteroids-v2';
+
+// Detect base path from the service worker's own location
+const BASE = self.registration.scope.endsWith('/')
+  ? self.registration.scope.slice(0, -1)
+  : self.registration.scope;
+
 const SHELL = [
-  '/',
-  '/manifest.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
+  BASE + '/',
+  BASE + '/manifest.json',
+  BASE + '/icons/icon-192.png',
+  BASE + '/icons/icon-512.png',
 ];
 
 self.addEventListener('install', (event) => {
@@ -30,17 +37,16 @@ self.addEventListener('fetch', (event) => {
   // Network-first for HTML navigation
   if (e.request.mode === 'navigate') {
     e.respondWith(
-      fetch(e.request).catch(() => caches.match('/'))
+      fetch(e.request).catch(() => caches.match(BASE + '/'))
     );
     return;
   }
 
-  // Cache-first for hashed JS/CSS assets
+  // Cache-first for hashed JS/CSS assets and other same-origin resources
   e.respondWith(
     caches.match(e.request).then((cached) => {
       if (cached) return cached;
       return fetch(e.request).then((response) => {
-        // Only cache same-origin successful responses
         if (url.origin === self.location.origin && response.status === 200) {
           const clone = response.clone();
           caches.open(CACHE).then((cache) => cache.put(e.request, clone));

@@ -2,19 +2,20 @@
   "name": "z-asteroids",
   "short_name": "Asteroids",
   "description": "Classic asteroids game — neon vector wireframes, play offline.",
-  "start_url": "/",
+  "start_url": "/z-asteroids/",
+  "scope": "/z-asteroids/",
   "display": "standalone",
   "orientation": "any",
   "theme_color": "#0b0f19",
   "background_color": "#0b0f19",
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "/z-asteroids/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "/z-asteroids/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
